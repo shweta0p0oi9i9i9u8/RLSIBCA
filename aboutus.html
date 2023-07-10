@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>RLS BCA Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+   <a  href="index.html"><img src="logo1.jpg"></a>
+    <div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+        <li><a href="index.html">HOME</a></li> 
+        <li><a href="about us.html">ABOUT US</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+         <li><a href="facilities.html">FACILITIES</a></li>
+      </ul>
+</div>
+<i class="fa fa-bars"onclick="showMenu()" ></i>
+</nav>
+<h1>About Us</h1>
+</section>
+
+
+
+<!-------about us content--------->
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1>RLS BCA</h1>
+<p>Bachelor of Computer applications is to supplement the knowledge of students and to bring them with the main channel Autonomous status was given to our college by NAAC and has started functioning from 
+the academic year 2012-13.<br>
+The main purpose of BCA degree is to provide the students with the knowledge and abilities necessary for professionals in the software sector as well as computer applications.<br>
+Our objective is to provide basic knowledge in the areas of computer applications and prepare the students for higher education
+in professional careers and the students can also take up independent careers to support software industries.</p>
+</div>
+<div class="about-col">
+<img src="images/about.jpg">
+</div>
+</div>
+
+</section>
+
+
+
+
+
+<!--------footer----->
+<section class="footer">
+<h4>About Us</h4>
+<p> Bachelor of Computer Applications was started in 1999 by the RLS Institute with a mission to provide high quality computer education to the students.
+<br>BCA is designed to provide the skills related to the use of computer and its applications. <br>
+</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+ 
+
+
+<!------Javascript for Toggle Menu------>
+<script>
+var navLinks=document.getElementById("navLinks");
+function showMenu()
+{
+ navLinks.style.right="0";
+}
+function hideMenu()
+{
+ navLinks.style.right="-200px";
+}
+</script>
+</body>
+</html>
